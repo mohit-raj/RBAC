@@ -138,6 +138,7 @@ class System:
         return ActionType(*[True if x == '1' else False for x in list(perm)])
 
     '''
+    TODO : [WIP]
     def _add_role_resource_menu (self, role_name: str) -> None:
         current_resources = self.role_manager.get_role_resources (role_name)
         all_resources = self.resource_manager.get_resources ()
@@ -155,7 +156,9 @@ class System:
 
         self.role_manager.add_role_resource (role_name, resource_name, permissions)
     '''
+
     '''
+    TODO : [WIP]
     def _remove_role_resource_menu (self, role_name: str) -> None:
         resources = self.role_manager.get_role_resources (role_name)
 
