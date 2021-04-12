@@ -38,7 +38,7 @@ A python authentication program.
 
 * main<nolink>.py
   * Driver code for the program.
-  * Has the menu loop.
+  * Has the menu loop / command line process defined in system.py.
 
 ## Classes
 
