@@ -106,6 +106,8 @@ A python authentication program.
 
 1. Operations are limted to CRUD (Create, Read, Update and Delete).
 
-## Assignment Link
+## Steps to run Py-Auth CLI
 
-* <https://github.com/mohit-raj/backend-developer-assignment/blob/main/README.md>
+* pip install dataclasses
+* python main.py
+* Then, to follow the instructions being displayed on CLI.
