@@ -111,3 +111,9 @@ A python authentication program.
 * pip install dataclasses
 * python main.py
 * Then, to follow the instructions being displayed on CLI.
+  * For convenience: {init roles are: admin, editor, viewer}, {init resources are: blog_page, article, comment}, {init usernames are: blog_admin, editor_1, viewer_1}.
+  * As for username: blog_admin (if you want to login as admin).
+  * As for username: editor_1 or you can go with viewer_1 (if you want to login as normal user).
+  * Then, you can proceed likewise. 
+
+  
