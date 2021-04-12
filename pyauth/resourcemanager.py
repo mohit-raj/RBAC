@@ -6,7 +6,7 @@ class ResourceManager:
         self.resources = set(resources)
 
     def get_resources(self) -> List[str]:
-        return self.resources
+        return self.resources.copy()
 
     def add_resources(self, new_resource: Union[str, List[str]]) -> None:
         self.resources.update(new_resource)

@@ -57,6 +57,8 @@ A python authentication program.
     * read : boolean
     * update : boolean
     * delete : boolean
+  * Functions:
+    * get_action_types ()
 
 * **RoleManager (Base class):**
   * Maintains a single object with all roles and permissions.
@@ -67,12 +69,14 @@ A python authentication program.
         &nbsp;&nbsp;&nbsp;&nbsp;} <br>
         &nbsp;&nbsp;}
   * Funtions:
+    * get_roles () 
     * add_role (role_name : str)
     * remove_role (role_name : str)
     * add_role_resource (role_name : str, resource_name : str, permissions : Action_type)
     * remove_role_resource (role_name : str, resource_name : str)
     * update_role_resource (role_name : str, resource_name : str, permissions : Action_type)
-    * get_resource_permissions (role_name : str, resource_name : str)
+    * get_role_resources (role_name : str)
+    * get_role_resource_permissions (role_name : str, resource_name : str)
     * check_resource_permission (role_name : str, resource_name : str, action_type : str)
     * remove_resource (resource_name : str/List)
 
@@ -97,8 +101,6 @@ A python authentication program.
   * Attributes:
     * role_manager : RoleManager
     * resource_manager : ResourceManager
-  * Functions:
-    * create_user (user_name : str, roles : array)
 
 ## Assumptions
 

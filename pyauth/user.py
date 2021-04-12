@@ -2,7 +2,7 @@ from typing import List
 
 
 class User:
-    def __init__(self, name: str, roles: List[str]) -> None:
+    def __init__(self, name: str, roles: List[str] = []) -> None:
         self.name = name
         self.roles = set(roles)
 
